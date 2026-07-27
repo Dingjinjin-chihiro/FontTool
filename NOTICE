@@ -1,0 +1,18 @@
+FontTool 1.0.0
+
+The public FontTool wrapper, command-line program, examples, tests and build
+integration files are made available under the Mozilla Public License 2.0.
+
+Portions of the internal font implementation are derived from PoDoFo 1.1.0 and
+retain their upstream choice of LGPL-2.0-or-later OR MPL-2.0. Modified files
+carry the corresponding SPDX identifier.
+
+Bundled third-party source components:
+
+- Adobe Font Development Kit for OpenType (AFDKO): Apache-2.0
+- utf8proc: MIT
+- utf8cpp: upstream permissive license included in LICENSES/utf8cpp.txt
+- tcb::span: Boost Software License 1.0
+
+FreeType is an external build dependency and is not bundled. Distributors must
+comply with the license of the FreeType build they package with FontTool.

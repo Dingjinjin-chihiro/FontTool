@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: MPL-2.0
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(Freetype)
+
+include("${CMAKE_CURRENT_LIST_DIR}/FontToolTargets.cmake")
+check_required_components(FontTool)

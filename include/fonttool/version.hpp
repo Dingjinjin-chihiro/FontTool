@@ -1,0 +1,7 @@
+// SPDX-License-Identifier: MPL-2.0
+#pragma once
+
+#define FONTTOOL_VERSION_MAJOR 1
+#define FONTTOOL_VERSION_MINOR 0
+#define FONTTOOL_VERSION_PATCH 0
+#define FONTTOOL_VERSION_STRING "1.0.0"

@@ -1,0 +1,30 @@
+# Build outputs
+/build/
+/build-*/
+/out/
+/install/
+
+# CMake
+CMakeUserPresets.json
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# IDE/editor
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated font test outputs
+*-subset.ttf
+*-subset.otf
+*-subset.cff

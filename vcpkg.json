@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "fonttool",
+  "version-semver": "1.0.0",
+  "description": "Embeddable C++17 font inspection and subsetting library",
+  "license": "MPL-2.0",
+  "dependencies": [
+    "freetype"
+  ]
+}

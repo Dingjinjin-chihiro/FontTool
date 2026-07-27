@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MPL-2.0
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: FontTool
+Description: Embeddable C++17 font inspection and subsetting library
+Version: @PROJECT_VERSION@
+Requires.private: freetype2
+Libs: -L${libdir} -lfonttool
+Cflags: -I${includedir}
